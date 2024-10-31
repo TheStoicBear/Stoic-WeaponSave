@@ -1,9 +1,10 @@
 # Stoic-WeaponSave
+![STOIC](https://github.com/user-attachments/assets/e8b88fa1-3588-43a6-998c-ad2cb4ef8a4c)
 
 ![GitHub issues](https://img.shields.io/github/issues/Thestoicbear/Stoic-WeaponSave)
 ![GitHub forks](https://img.shields.io/github/forks/Thestoicbear/Stoic-WeaponSave)
 ![GitHub stars](https://img.shields.io/github/stars/Thestoicbear/Stoic-WeaponSave)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 Stoic-WeaponSave is a **FiveM resource** that allows players to save, retrieve, and manage their weapons within the game. Built for compatibility with various frameworks like **QBCore**, **ESX**, and **NDCore**, this resource streamlines weapon management and enhances player experience by ensuring their weapon collections are easily saved and restored.
 
