@@ -78,10 +78,3 @@ Modify the `Config` file in the resource folder to customize weapon names, notif
 <summary><strong>🤝 Contributing</strong></summary> 
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or suggestions.
 </details>
-
----
-
-<details>
-<summary><strong>📜 License</strong></summary> 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-</details>
