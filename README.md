@@ -33,21 +33,52 @@ Stoic-WeaponSave is a **FiveM resource** that allows players to save, retrieve, 
    - Place the `Stoic-WeaponSave` folder in your `resources` directory of your FiveM server.
 
 4. **Add to your `server.cfg`**:
-   ```start Stoic-WeaponSave```
-
-<details> <summary><strong>💡 Usage</strong></summary>
-Commands
-
-/saveWeapons: Saves the player's current weapons to the database.
-/retrieveWeapons: Retrieves and gives back the player's saved weapons.
-/deleteAllWeapons: Deletes all weapons from the player's inventory.
-Notifications The resource includes a notification system that will inform players when weapons are saved, retrieved, or deleted.
-
-Events
-
-lib.notify: Custom notifications that can be triggered from both the client and server sides.
-sendWeaponsToClient: Event for sending weapons back to the player after retrieval.
 </details>
-<details> <summary><strong>⚙️ Configuration</strong></summary> Modify the `Config` file in the resource folder to customize weapon names, notification settings, and other parameters. </details>
-<details> <summary><strong>📋 Requirements</strong></summary> - **FiveM** server - **MariaDB** or **MySQL** database - Compatible with **QBCore**, **ESX**, and **NDCore** frameworks </details>
-<details> <summary>
+
+---
+
+<details>
+<summary><strong>💡 Usage</strong></summary>
+
+**Commands**
+- `/saveWeapons`: Saves the player's current weapons to the database.
+- `/retrieveWeapons`: Retrieves and gives back the player's saved weapons.
+- `/deleteAllWeapons`: Deletes all weapons from the player's inventory.
+
+**Notifications**
+The resource includes a notification system that will inform players when weapons are saved, retrieved, or deleted.
+
+**Events**
+- `lib.notify`: Custom notifications that can be triggered from both the client and server sides.
+- `sendWeaponsToClient`: Event for sending weapons back to the player after retrieval.
+</details>
+
+---
+
+<details>
+<summary><strong>⚙️ Configuration</strong></summary> 
+Modify the `Config` file in the resource folder to customize weapon names, notification settings, and other parameters.
+</details>
+
+---
+
+<details>
+<summary><strong>📋 Requirements</strong></summary>
+- **FiveM** server
+- **MariaDB** or **MySQL** database
+- Compatible with **QBCore**, **ESX**, and **NDCore** frameworks 
+</details>
+
+---
+
+<details>
+<summary><strong>🤝 Contributing</strong></summary> 
+Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or suggestions.
+</details>
+
+---
+
+<details>
+<summary><strong>📜 License</strong></summary> 
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+</details>
