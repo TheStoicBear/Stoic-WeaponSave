@@ -76,6 +76,28 @@ Modify the `Config` file in the resource folder to customize weapon names, notif
 ---
 
 <details>
+<summary><strong>📤 Exports</strong></summary>
+
+The following functions can be exported for use in other resources or scripts:
+
+- **`deleteAllWeapons`**: Deletes all weapons from the player's inventory.
+- **`saveWeapons`**: Saves the player's current weapons to the database.
+- **`retrieveWeapons`**: Retrieves and gives back the player's saved weapons.
+- **`deleteWeaponFromPlayer`**: Deletes a specific weapon from the player's inventory.
+
+You can use these functions in your scripts by calling them with the `exports` keyword:
+
+```lua
+-- Example usage
+exports['Stoic-WeaponSave']:deleteAllWeapons()
+exports['Stoic-WeaponSave']:saveWeapons()
+exports['Stoic-WeaponSave']:retrieveWeapons()
+exports['Stoic-WeaponSave']:deleteWeaponFromPlayer(weaponID)
+</details> 
+```
+</details> 
+
+<details>
 <summary><strong>🤝 Contributing</strong></summary> 
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or suggestions.
 </details>
