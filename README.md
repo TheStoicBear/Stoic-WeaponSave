@@ -93,15 +93,14 @@ exports['Stoic-WeaponSave']:deleteAllWeapons()
 exports['Stoic-WeaponSave']:saveWeapons()
 exports['Stoic-WeaponSave']:retrieveWeapons()
 exports['Stoic-WeaponSave']:deleteWeaponFromPlayer(weaponID)
-</details> 
-```
-```
 ```
 </details> 
-<details>
+
 
 ---
 
+
+<details>
 <summary><strong>🤝 Contributing</strong></summary> 
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or suggestions.
 </details>
