@@ -11,12 +11,15 @@ Stoic-WeaponSave is a **FiveM resource** that allows players to save, retrieve, 
 
 <details>
 <summary><strong>🔧 Features</strong></summary>
-- **Save** player's weapons to a database.
-- **Retrieve** saved weapons.
-- **Delete** specific weapons or all weapons from the player's inventory.
-- **Notification system** to inform players about actions taken (e.g., saving, deleting weapons).
-- **Compatibility** with various server frameworks.
+
+- **🔒 Save:** Player's weapons are securely saved to a database.
+- **📥 Retrieve:** Easily retrieve and restore saved weapons.
+- **🗑️ Delete:** Remove specific weapons or clear all weapons from the player's inventory.
+- **📢 Notifications:** Inform players about actions taken (e.g., saving, deleting weapons) through a built-in notification system.
+- **🔄 Compatibility:** Works seamlessly with various server frameworks including **QBCore**, **ESX**, and **NDCore**.
+
 </details>
+
 
 ---
 
